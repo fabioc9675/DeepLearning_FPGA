@@ -26,9 +26,9 @@ module neuron #(
     neuronNo = 0,
     numWeight = 784,
     dataWidth = 16,
-    sigmoidSize = 5,
-    weightIntWidth = 1,
-    actType = "sigmoid",
+    sigmoidSize = 10,
+    weightIntWidth = 4,
+    actType = "relu",
     biasFile = "",
     weightFile = ""
 ) (
