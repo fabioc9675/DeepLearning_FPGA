@@ -60,7 +60,7 @@
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSABoardId" Val="pynq-z1"/>
-    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTXSimLaunchSim" Val="8"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -91,6 +91,14 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/new/include.v">
+        <FileInfo>
+          <Attr Name="IsGlobalInclude" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/new/Layer_1.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -120,13 +128,6 @@
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/new/Sig_ROM.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/include.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -1162,15 +1163,115 @@
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
       <File Path="$PSRCDIR/sim_1/new/top_sim.v">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0089.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0100.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0003.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0046.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0097.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0080.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0011.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0054.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0028.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0070.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0001.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0036.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0062.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0079.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0095.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0082.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0005.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0048.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0052.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0021.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0077.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0034.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0064.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0041.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0084.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0067.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0024.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0015.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0009.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0058.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0032.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0075.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0018.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0092.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0060.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0030.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0000.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0056.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0013.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0043.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0039.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0026.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0069.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0099.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0007.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0073.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0086.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0090.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0071.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0020.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0037.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0063.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0088.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0053.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0010.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0045.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0096.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0002.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0027.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0035.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0022.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0065.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0078.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0094.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0004.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0047.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0017.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0081.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0051.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0029.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0016.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0076.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0059.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0008.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0033.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0093.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0050.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0040.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0083.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0006.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0031.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0049.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0023.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0014.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0066.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0019.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0044.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0057.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0087.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0061.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0074.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0091.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0085.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0072.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0042.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0055.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0068.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0098.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0025.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0012.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/beha/test_data_0038.txt"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="zyNET"/>
+        <Option Name="TopModule" Val="top_sim"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>

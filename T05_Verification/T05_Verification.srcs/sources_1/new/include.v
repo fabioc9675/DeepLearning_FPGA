@@ -1,5 +1,5 @@
 `define pretrained
-`define numLayer 5
+`define numLayers 5
 `define dataWidth 16
 `define numNeuronLayer1 30
 `define numWeightLayer1 784
