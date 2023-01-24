@@ -160,7 +160,7 @@ module zyNET #(
           holdData_2 <= holdData_2 >> `dataWidth;
           count_2 <= count_2 + 1;
           data_out_valid_2 <= 1;
-          if (count_2 == `numNeuronLayer1) begin
+          if (count_2 == `numNeuronLayer2) begin
             state_2 <= IDLE;
             data_out_valid_2 <= 0;
           end
@@ -225,7 +225,7 @@ module zyNET #(
           holdData_3 <= holdData_3 >> `dataWidth;
           count_3 <= count_3 + 1;
           data_out_valid_3 <= 1;
-          if (count_3 == `numNeuronLayer1) begin
+          if (count_3 == `numNeuronLayer3) begin
             state_3 <= IDLE;
             data_out_valid_3 <= 0;
           end
@@ -290,7 +290,7 @@ module zyNET #(
           holdData_4 <= holdData_4 >> `dataWidth;
           count_4 <= count_4 + 1;
           data_out_valid_4 <= 1;
-          if (count_4 == `numNeuronLayer1) begin
+          if (count_4 == `numNeuronLayer4) begin
             state_4 <= IDLE;
             data_out_valid_4 <= 0;
           end
