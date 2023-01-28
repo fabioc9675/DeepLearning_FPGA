@@ -22,4 +22,4 @@ def genMnistZynet(dataWidth, sigmoidSize, weightIntSize, inputIntSize):
     zynet.makeSystem('NN_Zynet_Prj', 'NN_Zinet_Block')
 
 
-genMnistZynet(dataWidth=8, sigmoidSize=10, weightIntSize=4, inputIntSize=1)
+genMnistZynet(dataWidth=16, sigmoidSize=10, weightIntSize=4, inputIntSize=1)
