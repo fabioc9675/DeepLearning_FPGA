@@ -6,6 +6,11 @@
 ##  License    : MIT                                                                   ##
 #########################################################################################
 
+T06_NetworkGen/WeightsAndBiasGen/weightBias/*
+T06_NetworkGen/dataTestGeneration/mnist.npz
+T06_NetworkGen/dataTestGeneration/testData/*
+T06_NetworkGen/ZyNet_Project/src/fpga/*
+
 ## log files
 *.log
 *.jou
@@ -537,3 +542,4 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
