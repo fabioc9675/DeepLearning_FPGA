@@ -1,0 +1,86 @@
+timestamp=[2023-02-02 15:36:49], mode=WORKBENCH_START, duration=0:00:09.701, duration_ms=9701, data={}
+timestamp=[2023-02-02 15:36:50], mode=WORKBENCH_UI_INIT, duration=0:00:00.659, duration_ms=659, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-02-02 15:36:52], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.116, duration_ms=1116, data={}
+timestamp=[2023-02-02 15:48:56], mode=PLATFORM_CREATION, duration=0:00:24.461, duration_ms=24461, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2023-02-02 15:50:13], mode=PLATFORM_GENERATION, duration=0:00:29.330, duration_ms=29330, data={name=NN_Zynet_Platform}
+timestamp=[2023-02-02 15:52:55], mode=APP_CREATION, duration=0:00:10.402, duration_ms=10402, data={name=NN_Zynet_Vitis, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=NN_Zynet_Platform, application_type=application}
+timestamp=[2023-02-02 15:53:19], mode=BUILD, duration=0:00:01.264, duration_ms=1264, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 11:45:27], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.742, duration_ms=742, data={}
+timestamp=[2023-02-03 11:45:28], mode=WORKBENCH_START, duration=0:00:12.912, duration_ms=12912, data={}
+timestamp=[2023-02-03 11:45:30], mode=WORKBENCH_UI_INIT, duration=0:00:01.124, duration_ms=1124, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=NN_Zynet_Platform,NN_Zynet_Vitis,NN_Zynet_Vitis_system,RemoteSystemsTempFiles}
+timestamp=[2023-02-03 12:57:21], mode=PLATFORM_GENERATION, duration=0:00:20.212, duration_ms=20212, data={name=NN_Zynet_Platform}
+timestamp=[2023-02-03 12:58:01], mode=BUILD, duration=0:00:01.598, duration_ms=1598, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 12:58:16], mode=BUILD, duration=0:00:08.025, duration_ms=8025, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 14:00:59], mode=PLATFORM_GENERATION, duration=0:00:18.315, duration_ms=18315, data={name=NN_Zynet_Platform}
+timestamp=[2023-02-03 14:01:03], mode=BUILD, duration=0:00:00.254, duration_ms=254, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=true}
+timestamp=[2023-02-03 14:01:08], mode=BUILD, duration=0:00:01.256, duration_ms=1256, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 14:01:25], mode=BUILD, duration=0:00:07.749, duration_ms=7749, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 17:03:10], mode=PLATFORM_GENERATION, duration=0:00:03.971, duration_ms=3971, data={name=NN_Zynet_Platform}
+timestamp=[2023-02-03 17:03:11], mode=BUILD, duration=0:00:01.077, duration_ms=1077, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 17:49:20], mode=PLATFORM_GENERATION, duration=0:00:14.638, duration_ms=14638, data={name=NN_Zynet_Platform}
+timestamp=[2023-02-03 17:49:27], mode=BUILD, duration=0:00:01.063, duration_ms=1063, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 17:49:43], mode=BUILD, duration=0:00:07.747, duration_ms=7747, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 17:50:00], mode=BUILD, duration=0:00:00.882, duration_ms=882, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 17:58:54], mode=BUILD, duration=0:00:00.961, duration_ms=961, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 18:02:37], mode=BUILD, duration=0:00:00.876, duration_ms=876, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 18:09:41], mode=BUILD, duration=0:00:00.885, duration_ms=885, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 18:09:49], mode=BUILD, duration=0:00:07.845, duration_ms=7845, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 18:23:50], mode=BUILD, duration=0:00:00.374, duration_ms=374, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 18:24:22], mode=BUILD, duration=0:00:00.375, duration_ms=375, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 18:27:34], mode=BUILD, duration=0:00:00.959, duration_ms=959, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 18:46:02], mode=PLATFORM_GENERATION, duration=0:00:18.700, duration_ms=18700, data={name=NN_Zynet_Platform}
+timestamp=[2023-02-03 18:48:01], mode=BUILD, duration=0:00:01.136, duration_ms=1136, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 18:48:18], mode=BUILD, duration=0:00:07.983, duration_ms=7983, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 19:04:02], mode=PLATFORM_GENERATION, duration=0:00:17.048, duration_ms=17048, data={name=NN_Zynet_Platform}
+timestamp=[2023-02-03 19:04:53], mode=BUILD, duration=0:00:01.139, duration_ms=1139, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 19:05:11], mode=BUILD, duration=0:00:08.544, duration_ms=8544, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 19:06:25], mode=BUILD, duration=0:00:00.378, duration_ms=378, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 19:06:33], mode=BUILD, duration=0:00:07.776, duration_ms=7776, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 19:07:53], mode=BUILD, duration=0:00:00.388, duration_ms=388, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 19:22:55], mode=BUILD, duration=0:00:00.394, duration_ms=394, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 19:23:03], mode=BUILD, duration=0:00:07.808, duration_ms=7808, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 19:23:07], mode=BUILD, duration=0:00:00.376, duration_ms=376, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 19:23:15], mode=BUILD, duration=0:00:07.730, duration_ms=7730, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 19:34:02], mode=WORKBENCH_START, duration=0:00:12.511, duration_ms=12511, data={}
+timestamp=[2023-02-03 19:34:03], mode=WORKBENCH_UI_INIT, duration=0:00:00.749, duration_ms=749, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=NN_Zynet_Platform,NN_Zynet_Vitis,NN_Zynet_Vitis_system,RemoteSystemsTempFiles}
+timestamp=[2023-02-03 19:34:04], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.342, duration_ms=342, data={}
+timestamp=[2023-02-03 19:36:21], mode=PLATFORM_GENERATION, duration=0:00:18.383, duration_ms=18383, data={name=NN_Zynet_Platform}
+timestamp=[2023-02-03 19:36:36], mode=BUILD, duration=0:00:01.155, duration_ms=1155, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 19:36:52], mode=BUILD, duration=0:00:08.008, duration_ms=8008, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 19:40:24], mode=WORKBENCH_START, duration=0:00:08.987, duration_ms=8987, data={}
+timestamp=[2023-02-03 19:40:25], mode=WORKBENCH_UI_INIT, duration=0:00:01.055, duration_ms=1055, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=NN_Zynet_Platform,NN_Zynet_Vitis,NN_Zynet_Vitis_system,RemoteSystemsTempFiles}
+timestamp=[2023-02-03 19:40:26], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.350, duration_ms=350, data={}
+timestamp=[2023-02-03 19:41:27], mode=BUILD, duration=0:00:00.436, duration_ms=436, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 19:41:36], mode=BUILD, duration=0:00:07.973, duration_ms=7973, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 19:58:11], mode=BUILD, duration=0:00:00.901, duration_ms=901, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 20:08:05], mode=PLATFORM_GENERATION, duration=0:00:18.475, duration_ms=18475, data={name=NN_Zynet_Platform}
+timestamp=[2023-02-03 20:08:35], mode=BUILD, duration=0:00:01.159, duration_ms=1159, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 20:08:52], mode=BUILD, duration=0:00:07.709, duration_ms=7709, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 20:18:19], mode=BUILD, duration=0:00:01.020, duration_ms=1020, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 20:22:51], mode=BUILD, duration=0:00:00.943, duration_ms=943, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 20:22:59], mode=BUILD, duration=0:00:07.935, duration_ms=7935, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 20:24:35], mode=WORKBENCH_START, duration=0:00:10.398, duration_ms=10398, data={}
+timestamp=[2023-02-03 20:24:36], mode=WORKBENCH_UI_INIT, duration=0:00:00.890, duration_ms=890, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=NN_Zynet_Platform,NN_Zynet_Vitis,NN_Zynet_Vitis_system,RemoteSystemsTempFiles}
+timestamp=[2023-02-03 20:24:37], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.387, duration_ms=387, data={}
+timestamp=[2023-02-03 20:28:24], mode=BUILD, duration=0:00:01.002, duration_ms=1002, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 20:31:54], mode=BUILD, duration=0:00:00.947, duration_ms=947, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 20:32:02], mode=BUILD, duration=0:00:00.389, duration_ms=389, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 20:32:11], mode=BUILD, duration=0:00:07.788, duration_ms=7788, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 20:47:00], mode=PLATFORM_GENERATION, duration=0:00:19.105, duration_ms=19105, data={name=NN_Zynet_Platform}
+timestamp=[2023-02-03 20:47:11], mode=BUILD, duration=0:00:01.327, duration_ms=1327, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 20:47:28], mode=BUILD, duration=0:00:07.846, duration_ms=7846, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 20:50:08], mode=WORKBENCH_START, duration=0:00:10.862, duration_ms=10862, data={}
+timestamp=[2023-02-03 20:50:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.977, duration_ms=977, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=NN_Zynet_Platform,NN_Zynet_Vitis,NN_Zynet_Vitis_system,RemoteSystemsTempFiles}
+timestamp=[2023-02-03 20:50:10], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.438, duration_ms=438, data={}
+timestamp=[2023-02-03 21:11:23], mode=PLATFORM_GENERATION, duration=0:00:18.261, duration_ms=18261, data={name=NN_Zynet_Platform}
+timestamp=[2023-02-03 21:11:53], mode=BUILD, duration=0:00:01.164, duration_ms=1164, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 21:15:33], mode=BUILD, duration=0:00:01.072, duration_ms=1072, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 21:15:49], mode=BUILD, duration=0:00:08.127, duration_ms=8127, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 21:18:59], mode=BUILD, duration=0:00:00.959, duration_ms=959, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 21:19:05], mode=BUILD, duration=0:00:00.388, duration_ms=388, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 21:28:58], mode=PLATFORM_GENERATION, duration=0:00:19.208, duration_ms=19208, data={name=NN_Zynet_Platform}
+timestamp=[2023-02-03 21:29:20], mode=BUILD, duration=0:00:01.217, duration_ms=1217, data={name=NN_Zynet_Vitis, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 21:29:38], mode=BUILD, duration=0:00:08.249, duration_ms=8249, data={name=NN_Zynet_Vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2023-02-03 21:32:04], mode=WORKBENCH_START, duration=0:00:11.714, duration_ms=11714, data={}
+timestamp=[2023-02-03 21:32:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.792, duration_ms=792, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=NN_Zynet_Platform,NN_Zynet_Vitis,NN_Zynet_Vitis_system,RemoteSystemsTempFiles}
+timestamp=[2023-02-03 21:32:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.554, duration_ms=554, data={}
