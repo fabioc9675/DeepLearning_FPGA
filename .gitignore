@@ -543,3 +543,4 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+T07_LowNetworkGen/dataTestGeneration/mnist.pkl.gz
