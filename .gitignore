@@ -10,6 +10,7 @@ T06_NetworkGen/WeightsAndBiasGen/weightBias/*
 T06_NetworkGen/dataTestGeneration/mnist.npz
 T06_NetworkGen/dataTestGeneration/testData/*
 T06_NetworkGen/ZyNet_Project/src/fpga/*
+T07_LowNetworkGen/WeightsAndBiasGen/weightBias/*
 
 ## log files
 *.log
@@ -543,3 +544,4 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+T07_LowNetworkGen/dataTestGeneration/mnist.pkl.gz
